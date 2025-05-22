@@ -6,18 +6,17 @@
         Este módulo proporciona funcionalidades básicas para la gestión de cuentas personalizadas en Odoo.
     """,
     'author': 'Tu Nombre',
-    'website': '',
+    'website': 'Tu Sitio Web (opcional)',
     'license': 'LGPL-3',
     'category': 'Accounting',
     'depends': ['base', 'account'],  # Indica los módulos de los que depende este módulo
     'data': [
-        'views/views.xml',
-        'security/ir.model.access.csv',
+        # Aquí irán las rutas a tus archivos XML (vistas, menús, etc.)
     ],
     'demo': [
         # Aquí irán las rutas a tus archivos XML de datos de demostración (opcional)
-    ],
+    ],  # hola 31937452
     'installable': True,
-    'application': True,
+    'application': False,
     'auto_install': False,
 }
